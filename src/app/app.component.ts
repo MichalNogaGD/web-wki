@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lab1';
+  films: string[] = [
+    'skary makarony',
+    'film o pszczolach',
+    'okejka',
+    'super przeznaczenie 3',
+    'mariusz pudzianowski psem pasterskim był 2'
+  ];
 }
